@@ -21,9 +21,9 @@
     <!-- Navbar -->
 
      <nav class="navbar navbar-expand-md nav-color">
-        <div class="container">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand"> Logo </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="myNav" aria-controls"navbar-collapse" aria-expanded="false" aria-label="toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="navbar-collapse" aria-expanded="false" aria-label="toggle navigation">
               X
             </button>
 
@@ -36,17 +36,6 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link">About</a>
                     </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
                     
                     <li class="nav-item dropdown dropdown-sm active">
                         <a href="#" class="nav-link dropdown-toggle" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog
@@ -75,7 +64,9 @@
 
                 </ul>
 
-                <form action="" class="form-inline mt-2 mt-md-0">
+            </div>
+
+                <form action="" class="d-flex flex-row-reverse mt-2 mt-md-0">
                     <input type="text" name="search" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
                     <button type="submit" class="btn btn-search my-2 my-sm-0"> 
                         X 
@@ -83,8 +74,6 @@
                     </button>
 
                 </form>
-
-            </div>
 
         </div>
 

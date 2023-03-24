@@ -1,0 +1,41 @@
+
+/* Variables */
+:root{
+    --primaryColor: #0abb68a2;
+    --textBg:#ffffffc4;
+    --badges: #cf1b1b;
+    --tags: #da2f2f;
+    --button: #f81515;
+}
+
+/* NavBar */
+.nav-color {
+    background-color: var(--primaryColor);    
+}
+
+.nav-link{
+    color: var(--textBg);
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+.navbar-brand{
+    color:var(--textBg);
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: rgb(212, 69, 193);
+}
+
+.dropdown-item.active,
+.dropdown-item:active{
+    background-color: var(--primaryColor);
+}
+
+.navbar-toggler{
+    outline: none !important;
+    box-shadow: none !important;
+}
