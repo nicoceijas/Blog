@@ -8,6 +8,37 @@
     --button: #f81515;
 }
 
+/* Global Styles */
+.badge-cate{
+    background-color: var(--primaryColor);
+    color: var(--textBg);
+}
+
+.badge.tags{
+    background-color: var(--primaryColor);
+    color: var(--textBg);
+}
+
+.main-title a{
+    color: var(--primaryColor);
+}
+
+.sub-title{
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+.main-btn{
+    background: var(--button);
+    color: var(--textBg);
+}
+
+.post-title{
+    color:var(--primaryColor);
+    font-weight: 700;
+}
+
+
 /* NavBar */
 .nav-color {
     background-color: var(--primaryColor);    
@@ -39,3 +70,4 @@
     outline: none !important;
     box-shadow: none !important;
 }
+
