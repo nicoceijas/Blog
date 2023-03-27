@@ -104,3 +104,24 @@ border-color: 1px solid var(--primaryColor);
     color: var(--hover);
 }
 
+/* Categories */
+
+.list-group-item {
+    color: var(--primaryColor);
+}
+
+
+/* Footer */
+.back{
+    background:var(--primaryColor);
+}
+
+.list-unstyled li,
+.list-unstyled li a{
+    color: var(--textBg);
+    text-decoration: none;
+}
+
+h6{
+    color: var(--textBg);
+}
