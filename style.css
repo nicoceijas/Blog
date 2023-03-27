@@ -3,19 +3,29 @@
 :root{
     --primaryColor: #0abb68a2;
     --textBg:#ffffffc4;
-    --badges: #cf1b1b;
+    --badges: #0abb68;
     --tags: #da2f2f;
-    --button: #f81515;
+    --button: #0abb68;
+    --hover: black;
 }
 
-/* Global Styles */
-.badge-cate{
-    background-color: var(--primaryColor);
+/* Post Styles */
+
+.badge-cate,
+.badge-tags{
+    background-color: var(--badges);
     color: var(--textBg);
 }
 
+.badge-pill
+
+.badge-cate:hover{
+    color: var(--hover);
+}
+
+
 .badge.tags{
-    background-color: var(--primaryColor);
+    background-color: var(--badges);
     color: var(--textBg);
 }
 
@@ -26,6 +36,10 @@
 .sub-title{
     color: var(--primaryColor);
     font-weight: 500;
+}
+
+.sub-title:hover{
+    color: var(--hover);
 }
 
 .main-btn{
@@ -39,7 +53,8 @@
 }
 
 
-/* NavBar */
+/* NavBar Styles*/
+
 .nav-color {
     background-color: var(--primaryColor);    
 }
@@ -49,8 +64,13 @@
 }
 
 .nav-item a:hover {
-    color: black;
+    color: var(--hover);
 }
+
+.figure-caption p{
+    color: var(--button);
+}
+
 
 .navbar-brand{
     color:var(--textBg);
@@ -58,7 +78,7 @@
 }
 
 .navbar-brand:hover{
-    color: rgb(212, 69, 193);
+    color: rgb(0, 0, 0);
 }
 
 .dropdown-item.active,
@@ -69,5 +89,18 @@
 .navbar-toggler{
     outline: none !important;
     box-shadow: none !important;
+}
+
+/* Pagination */
+
+.page-link{
+color: var(--textBg);
+background-color: var(--primaryColor);
+border-color: 1px solid var(--primaryColor);
+}
+
+.page-link:hover{
+    background-color: var(--button);
+    color: var(--hover);
 }
 
